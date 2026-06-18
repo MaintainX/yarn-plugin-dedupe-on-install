@@ -1,0 +1,22 @@
+name: yarn-plugin-dedupe-on-install
+id: ari:cloud:compass:84e09587-307e-4b5c-9994-fd2a7738c1c6:component/aa4254cb-a8d8-4ad0-a142-7252d70fe7ae/0006413f-b3e6-4629-b4a1-67de8bdc1816
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/MaintainX/yarn-plugin-dedupe-on-install
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Default Assignee
+    type: user
+    value: null
+  - name: Project Key
+    type: text
+    value: null
