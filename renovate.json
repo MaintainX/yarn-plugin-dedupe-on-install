@@ -3,7 +3,14 @@
   "extends": ["github>MaintainX/mx-renovate-shared", "schedule:weekly"],
   "packageRules": [
     {
-      "matchUpdateTypes": ["pin", "pinDigest", "minor", "patch", "digest", "bump"],
+      "matchUpdateTypes": [
+        "pin",
+        "pinDigest",
+        "minor",
+        "patch",
+        "digest",
+        "bump"
+      ],
       "groupName": "rest of dependencies",
       "groupSlug": "rest",
       "automerge": true

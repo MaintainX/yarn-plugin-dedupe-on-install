@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 10
   cacheKey: 10c0
 
 "@arcanis/slice-ansi@npm:^1.1.1":
@@ -231,7 +231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:^4.9.1":
+"@yarnpkg/core@npm:4.9.1":
   version: 4.9.1
   resolution: "@yarnpkg/core@npm:4.9.1"
   dependencies:
@@ -1063,7 +1063,7 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@tsconfig/strictest": "npm:2.0.5"
     "@types/node": "npm:22.13.13"
-    "@yarnpkg/core": "npm:^4.9.1"
+    "@yarnpkg/core": "npm:4.9.1"
     "@yarnpkg/shell": "npm:4.1.2"
     typescript: "npm:5.8.2"
   languageName: unknown
