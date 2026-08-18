@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>MaintainX/mx-renovate-shared", "schedule:weekly"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "pin",
+        "pinDigest",
+        "minor",
+        "patch",
+        "digest",
+        "bump"
+      ],
+      "groupName": "rest of dependencies",
+      "groupSlug": "rest",
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": "major dependencies",
+      "groupSlug": "major",
+      "automerge": false,
+      "prConcurrentLimit": 1
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "extends": ["schedule:weekly"]
+  },
+  "osvVulnerabilityAlerts": true
+}
