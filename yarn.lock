@@ -157,10 +157,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/strictest@npm:2.0.5":
-  version: 2.0.5
-  resolution: "@tsconfig/strictest@npm:2.0.5"
-  checksum: 10c0/cfc86da2d57f7b4b0827701b132c37a4974284e5c40649656c0e474866dfd8a69f57c6718230d8a8139967e2a95438586b8224c13ab0ff9d3a43eda771c50cc4
+"@tsconfig/strictest@npm:2.0.8":
+  version: 2.0.8
+  resolution: "@tsconfig/strictest@npm:2.0.8"
+  checksum: 10c0/96d7f1c6988c284886e7f2caea87415a6ebc779dc24c3f102cfa83b7d924da1363176b09c4600d11a1205bf2d819f35515c542a4bbcbe2fe13c1d7833376d203
   languageName: node
   linkType: hard
 
@@ -208,12 +208,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.13.13":
-  version: 22.13.13
-  resolution: "@types/node@npm:22.13.13"
+"@types/node@npm:22.20.5":
+  version: 22.20.5
+  resolution: "@types/node@npm:22.20.5"
   dependencies:
-    undici-types: "npm:~6.20.0"
-  checksum: 10c0/daf792ba5dcff1316abf4b33680f94b792f8d54d6ae495efc8929531e0ba1284a248d29aab117d2259f9280284d986ad5799b193b0516e2b926d713aab835f7d
+    undici-types: "npm:~6.21.0"
+  checksum: 10c0/0cf61a89c6a69917ab49f976a6bb11a29e3b348a6ae19f5827ceb91d3ade781faab58dcf3b8fa625f975f5d7536b9166ff94e8250c29272c667164f77c28fa88
   languageName: node
   linkType: hard
 
@@ -306,25 +306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@yarnpkg/shell@npm:4.1.2"
-  dependencies:
-    "@yarnpkg/fslib": "npm:^3.1.2"
-    "@yarnpkg/parsers": "npm:^3.0.3"
-    chalk: "npm:^3.0.0"
-    clipanion: "npm:^4.0.0-rc.2"
-    cross-spawn: "npm:^7.0.3"
-    fast-glob: "npm:^3.2.2"
-    micromatch: "npm:^4.0.2"
-    tslib: "npm:^2.4.0"
-  bin:
-    shell: ./lib/cli.js
-  checksum: 10c0/4d2116cf6637a38b15bc994a9e86535359ac654714a1c737bf2a3a8b7d80e8b0cc1a515567fb2522395f8e42aecec0ad14d2f54dc51f583215e87128e4dada87
-  languageName: node
-  linkType: hard
-
-"@yarnpkg/shell@npm:^4.1.3":
+"@yarnpkg/shell@npm:4.1.3, @yarnpkg/shell@npm:^4.1.3":
   version: 4.1.3
   resolution: "@yarnpkg/shell@npm:4.1.3"
   dependencies:
@@ -400,16 +382,6 @@ __metadata:
   version: 5.3.1
   resolution: "camelcase@npm:5.3.1"
   checksum: 10c0/92ff9b443bfe8abb15f2b1513ca182d16126359ad4f955ebc83dc4ddcc4ef3fdd2c078bc223f2673dc223488e75c99b16cc4d056624374b799e6a1555cf61b23
-  languageName: node
-  linkType: hard
-
-"chalk@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "chalk@npm:3.0.0"
-  dependencies:
-    ansi-styles: "npm:^4.1.0"
-    supports-color: "npm:^7.1.0"
-  checksum: 10c0/ee650b0a065b3d7a6fda258e75d3a86fc8e4effa55871da730a9e42ccb035bf5fd203525e5a1ef45ec2582ecc4f65b47eb11357c526b84dd29a14fb162c414d2
   languageName: node
   linkType: hard
 
@@ -956,30 +928,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.8.2":
-  version: 5.8.2
-  resolution: "typescript@npm:5.8.2"
+"typescript@npm:5.9.3":
+  version: 5.9.3
+  resolution: "typescript@npm:5.9.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/5c4f6fbf1c6389b6928fe7b8fcd5dc73bb2d58cd4e3883f1d774ed5bd83b151cbac6b7ecf11723de56d4676daeba8713894b1e9af56174f2f9780ae7848ec3c6
+  checksum: 10c0/6bd7552ce39f97e711db5aa048f6f9995b53f1c52f7d8667c1abdc1700c68a76a308f579cd309ce6b53646deb4e9a1be7c813a93baaf0a28ccd536a30270e1c5
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>":
-  version: 5.8.2
-  resolution: "typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"
+"typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>":
+  version: 5.9.3
+  resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/5448a08e595cc558ab321e49d4cac64fb43d1fa106584f6ff9a8d8e592111b373a995a1d5c7f3046211c8a37201eb6d0f1566f15cdb7a62a5e3be01d087848e2
+  checksum: 10c0/ad09fdf7a756814dce65bc60c1657b40d44451346858eea230e10f2e95a289d9183b6e32e5c11e95acc0ccc214b4f36289dcad4bf1886b0adb84d711d336a430
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.20.0":
-  version: 6.20.0
-  resolution: "undici-types@npm:6.20.0"
-  checksum: 10c0/68e659a98898d6a836a9a59e6adf14a5d799707f5ea629433e025ac90d239f75e408e2e5ff086afc3cace26f8b26ee52155293564593fbb4a2f666af57fc59bf
+"undici-types@npm:~6.21.0":
+  version: 6.21.0
+  resolution: "undici-types@npm:6.21.0"
+  checksum: 10c0/c01ed51829b10aa72fc3ce64b747f8e74ae9b60eafa19a7b46ef624403508a54c526ffab06a14a26b3120d055e1104d7abe7c9017e83ced038ea5cf52f8d5e04
   languageName: node
   linkType: hard
 
@@ -1020,10 +992,10 @@ __metadata:
   resolution: "yarn-plugin-dedupe-on-install@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
-    "@tsconfig/strictest": "npm:2.0.5"
-    "@types/node": "npm:22.13.13"
+    "@tsconfig/strictest": "npm:2.0.8"
+    "@types/node": "npm:22.20.5"
     "@yarnpkg/core": "npm:4.9.1"
-    "@yarnpkg/shell": "npm:4.1.2"
-    typescript: "npm:5.8.2"
+    "@yarnpkg/shell": "npm:4.1.3"
+    typescript: "npm:5.9.3"
   languageName: unknown
   linkType: soft
